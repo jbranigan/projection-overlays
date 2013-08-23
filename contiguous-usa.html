@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+	<title>USA - Projection Overlays</title>
+	<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
 
-<h1>Continental USA in Eight Projections</h1>
-<p>All shapes drawn at the same scale, with the same center</p>
+	<h1>Continental USA in Eight Projections</h1>
+	<p>All shapes drawn at the same scale, with the same center</p>
 
-<embed class='map' type="image/svg+xml" src="svg/cusa-lambert.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-gnomonic.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-mercator.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-mollweide.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-orthographic.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-plate-carree.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-albers.svg" />
-<embed class='map' type="image/svg+xml" src="svg/cusa-web-mercator.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-lambert.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-gnomonic.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-mercator.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-mollweide.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-orthographic.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-plate-carree.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-albers.svg" />
+	<embed class='map' type="image/svg+xml" src="svg/cusa-web-mercator.svg" />
 
-<div class='legend'>
-	<div class='legend-item' id='plate-carree'>Plate Carree</div>
-	<div class='legend-item' id='mercator'>Mercator</div>
-	<div class='legend-item' id='web-mercator'>Web Mercator</div>
-	<div class='legend-item' id='albers'>Albers Equal Area Conic</div>
-	<div class='legend-item' id='lambert'>Lambert Conformal Conic</div>
-	<div class='legend-item' id='gnomonic'>Gnomonic</div>
-	<div class='legend-item' id='orthographic'>Orthographic</div>
-	<div class='legend-item' id='mollweide'>Mollweide</div>
-</div>
+	<div class='legend'>
+		<div class='legend-item' id='plate-carree'>Plate Carree</div>
+		<div class='legend-item' id='mercator'>Mercator</div>
+		<div class='legend-item' id='web-mercator'>Web Mercator</div>
+		<div class='legend-item' id='albers'>Albers Equal Area Conic</div>
+		<div class='legend-item' id='lambert'>Lambert Conformal Conic</div>
+		<div class='legend-item' id='gnomonic'>Gnomonic</div>
+		<div class='legend-item' id='orthographic'>Orthographic</div>
+		<div class='legend-item' id='mollweide'>Mollweide</div>
+	</div>
 
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>

@@ -4,31 +4,41 @@ html,body {
 	height: 100%;
 	font-family: Tahoma, Helvetica, Arial, sans-serif;
 	color: #444;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 h1 {
 	font-weight: normal;
+	margin-left: 20px;
+	margin-bottom: 4px;
+}
+p {
+	margin-left: 20px;
 }
 
 .map {
 	position:absolute;
 	top:0;
 	left:0;
-	width: 90%;
+	width: 100%;
 	opacity:.6;
 }
 
 .legend {
 	position: fixed;
-	left 0;
-	bottom: 40px;
-	width: 100%;
+	bottom: 20px;
+	width: auto;
+	padding: 20px;
+	left: 20px;
+	background: rgba(255,255,255,.5);
 }
 
 .legend-item {
-	width: 300px;
 	text-align: left;
 	padding: 3px 0;
+	cursor: pointer;
 }
 
 #mollweide {
