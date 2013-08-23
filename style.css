@@ -1,0 +1,57 @@
+html,body {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: Tahoma, Helvetica, Arial, sans-serif;
+	color: #444;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+.map {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 90%;
+	opacity:.6;
+}
+
+.legend {
+	position: fixed;
+	left 0;
+	bottom: 40px;
+	width: 100%;
+}
+
+.legend-item {
+	width: 300px;
+	text-align: left;
+	padding: 3px 0;
+}
+
+#mollweide {
+	color: #FFAA00;
+}
+#orthographic {
+	color: #004DA8;
+}
+#gnomonic {
+	color: #00A9E6;
+}
+#lambert {
+	color: #8400A8;
+}
+#albers {
+	color: #38A800;
+}
+#web-mercator {
+	color: #FF0000;
+}
+#mercator {
+	color: #FF73DF;
+}
+#plate-carree {
+	color: #A87000;
+}
